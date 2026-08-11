@@ -2,18 +2,7 @@ execution another file for testing# A basic configuration file
 server:
   host: "127.0.0.1"
   port: 8080
-  secure: true
-
-database:
-  name: "production_db"
-  connection_limit: 5
-  adapters:
-    - "mysql"
-    - "postgres"# A basic configuration file
-server:
-  host: "127.0.0.1"
-  port: 8080
-  secure: true
+  secure: 
 
 database:
   name: "production_db"
